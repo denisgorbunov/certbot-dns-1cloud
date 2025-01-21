@@ -1,0 +1,10 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+/.venv
+*.pyc
+__pycache__/
+*.egg-info/
+build/
+dist/
+1cloud.ini
+plugin_debug.log
+*.tar.gz
