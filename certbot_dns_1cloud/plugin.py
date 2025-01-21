@@ -39,7 +39,7 @@ class Authenticator(DNSAuthenticator):
         super().add_parser_arguments(add)
         add("credentials", help="Path to 1cloud API credentials INI file")
         add(
-            "dns-1cloud-logging",  # Новый аргумент для включения логов
+            "dns-1cloud-logging",
             action="store_true",   # Булев флаг (включено/выключено)
             help="Enable detailed logging for the plugin (default: disabled)",
         )
